@@ -38,6 +38,10 @@ onMounted(() => {
       text="<p>We are committed to providing a safe and secure environment for all of our users. We have a zero-tolerance policy for any form of harassment or abuse. If you are experiencing any form of harassment or abuse, please contact us immediately at <a href='mailto:lumey@lumey.dev'>lumey@lumey.dev</a></p>"
     />
     <SafetyBlock
+      title="A comment on crawlers:"
+      text="<p>Any fediverse crawler used to index and search the fedi.lumey.dev instance without <b>explicit and written consent</b> is not permitted. If you are discovered to have crawled this instance, you will be asked nicely <i>once</i>. Afterwards, if indexed again after the notice, you will recieve a cease and desist letter.</p>"
+    />
+    <SafetyBlock
       title="Privacy 🔒"
       text="<p>Most lumey services do not collect user data. Some services, such as <a href='card.lumey.dev'>card.lumey.dev</a> collect anonymous analytics. Other services, such as Nextcloud, can collect a lot of data. Our privacy policy spans all of our services, but does not mean each one collects the same amount of data. You can view the policy at <a href='privacy.lumey.dev'>privacy.lumey.dev</a></p>"
     />
